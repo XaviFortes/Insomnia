@@ -1,0 +1,34 @@
+_id: req_2693ea64ed4545149d7315af21d1ef61
+type: Request
+parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
+modified: 1659134364889
+created: 1657270566588
+url: http://localhost:8080/api/auth/signup
+name: Register Api
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "Fortes",
+    	"email": "xavifortes@xavifortes.com",
+    	"password": "Miguelon"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_476a20a0670b4ca6b4b81d8d94e8e06b
+authentication:
+  type: bearer
+  token: ""
+  disabled: false
+metaSortKey: -1657270566588
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

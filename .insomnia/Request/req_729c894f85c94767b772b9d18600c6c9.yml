@@ -1,0 +1,33 @@
+_id: req_729c894f85c94767b772b9d18600c6c9
+type: Request
+parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
+modified: 1659137439481
+created: 1659134831279
+url: http://localhost:8080/api/invest/create
+name: Register Investment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "HugoCoin",
+    	"code": "HC"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_476a20a0670b4ca6b4b81d8d94e8e06b
+authentication:
+  type: bearer
+  token: ""
+  disabled: false
+metaSortKey: -1657270566538
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

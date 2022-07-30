@@ -1,0 +1,30 @@
+_id: req_4e41b6d769fc43ebb663548e4f1ce8da
+type: Request
+parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
+modified: 1659215965354
+created: 1657308002827
+url: http://localhost:8080/api/auth/signin
+name: Login Api
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "Fortes",
+    	"password": "Miguelon"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c5908f3b44bd40419cb8c962f86af78a
+authentication: {}
+metaSortKey: -1657308002827
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

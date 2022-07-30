@@ -1,0 +1,26 @@
+_id: req_432572e387a74deab42e24b0d4936ae6
+type: Request
+parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
+modified: 1659215956573
+created: 1657367073235
+url: http://localhost:8080/api/test/all
+name: Test all Api
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{% response 'body', 'req_4e41b6d769fc43ebb663548e4f1ce8da',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'when-expired', 60 %}"
+  prefix: ""
+metaSortKey: -1657308678151.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

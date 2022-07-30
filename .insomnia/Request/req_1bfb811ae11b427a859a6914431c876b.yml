@@ -1,0 +1,34 @@
+_id: req_1bfb811ae11b427a859a6914431c876b
+type: Request
+parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
+modified: 1659216280620
+created: 1659137034720
+url: http://localhost:8080/api/invest/buy
+name: Buy Investments
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "HugoCoin",
+    	"amount": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_476a20a0670b4ca6b4b81d8d94e8e06b
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e41b6d769fc43ebb663548e4f1ce8da',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'when-expired', 60 %}"
+  disabled: false
+metaSortKey: -1657270566438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

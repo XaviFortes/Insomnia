@@ -1,0 +1,31 @@
+_id: req_911287c99a2b4cc182f9ff534e3c2077
+type: Request
+parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
+modified: 1659215909629
+created: 1657308793368
+url: http://localhost:8080/api/test/user
+name: Test user Api
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_266c9afca7444f6b8280885033ad7228
+    name: x-access-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzhhOWUxMmNmMTBiNmVhNGE5ZTM4OSIsImlhdCI6MTY1NzMyMjcyOCwiZXhwIjoxNjU3NDA5MTI4fQ.qAmAPWm9H3XBOGH1q-Uo0YSnzy0bTVTiavMHFFSBF_c
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  disabled: false
+  token: "{% response 'body', 'req_4e41b6d769fc43ebb663548e4f1ce8da',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'when-expired', 60 %}"
+  prefix: ""
+metaSortKey: -1657308793368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

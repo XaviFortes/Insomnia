@@ -1,0 +1,23 @@
+_id: req_32b29a3209a94c8ca37830e5f92529ec
+type: Request
+parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
+modified: 1657317887028
+created: 1657308332503
+url: http://localhost:8080/api/auth
+name: Auth Api
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ4YXZpZm9ydGVzQHhhdmlmb3J0ZXMuY29tIiwiaWF0IjoxNjU3MzA4NjA4LCJleHAiOjE2NTczMTIyMDh9.7mNMUQIZm5GRd_ChRn8jbghEQHj_xHqe8ez4IiHl2wo
+metaSortKey: -1657308332503
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
