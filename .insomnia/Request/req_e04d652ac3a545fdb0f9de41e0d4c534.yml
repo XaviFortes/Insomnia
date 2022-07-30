@@ -1,22 +1,15 @@
 _id: req_e04d652ac3a545fdb0f9de41e0d4c534
 type: Request
 parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
-modified: 1659215871669
+modified: 1659216627426
 created: 1659136064117
 url: http://localhost:8080/api/invest/see
 name: Get Investments
 description: ""
 method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    }
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_476a20a0670b4ca6b4b81d8d94e8e06b
+headers: []
 authentication:
   type: bearer
   token: ""

@@ -1,7 +1,7 @@
 _id: req_1bfb811ae11b427a859a6914431c876b
 type: Request
 parentId: wrk_6be6f3796da14ba18d305f885e8e0e62
-modified: 1659216280620
+modified: 1659222296784
 created: 1659137034720
 url: http://localhost:8080/api/invest/buy
 name: Buy Investments
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "HugoCoin",
-    	"amount": 3
+    	"code": "HC",
+    	"amount": 5
     }
 parameters: []
 headers:
